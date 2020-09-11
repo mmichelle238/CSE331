@@ -1,0 +1,7 @@
+# Find a path with only one "hop" (edge) using a file I created
+# called newClothes.
+
+loaded graph clothes
+
+path from pants to shorts:
+pants to shorts via pantbook

@@ -1,0 +1,15 @@
+# create a graph and 3 nodes and create edges
+# between them. This test ensures that the list
+# of the children of a node is sorted alphabetically,
+# especially when the destination node is the same
+# but the label is different.
+
+CreateGraph A
+AddNode A n1
+AddNode A n2
+AddNode A n3
+AddEdge A n3 n2 e31
+AddEdge A n3 n1 e32
+AddEdge A n3 n3 e33
+AddEdge A n3 n1 e35
+ListChildren A n3

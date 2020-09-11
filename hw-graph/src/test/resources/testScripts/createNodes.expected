@@ -1,0 +1,8 @@
+# Tests graph creation/viewing with a graph
+# that has nodes that aren't connected to each other.
+
+created graph graph1
+added node A to graph1
+added node B to graph1
+added node C to graph1
+graph1 contains: A B C

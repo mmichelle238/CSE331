@@ -1,0 +1,5 @@
+# Find a path that that takes 2 hops to get to the destination.
+
+LoadGraph clothes newClothes.tsv
+
+FindPath clothes pants sweatshirts

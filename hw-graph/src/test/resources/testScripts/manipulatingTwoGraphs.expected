@@ -1,0 +1,17 @@
+# Tests graph creation/viewing with a
+# simple graph ('A') with three nodes.
+# And the simultaneous creation of another graph
+# ('B') does not result in incorrect behavior.
+
+created graph graph1
+added node A to graph1
+added node B to graph1
+created graph graph2
+added node A to graph2
+added node B to graph2
+added edge 5 from A to B in graph1
+added edge 5 from A to B in graph2
+added edge 3 from B to A in graph1
+added edge 4 from B to A in graph2
+added edge 7 from A to B in graph1
+added edge 7 from A to B in graph2

@@ -1,0 +1,6 @@
+# Tests that if a path has the same source
+# and destination, it wouldn't print anything.
+
+loaded graph clothes
+
+path from pants to pants:

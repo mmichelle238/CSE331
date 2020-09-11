@@ -1,0 +1,7 @@
+# Find a path that that takes 2 hops to get to the destination.
+
+loaded graph clothes
+
+path from pants to sweatshirts:
+pants to overalls via pantbook
+overalls to sweatshirts via shirtbook

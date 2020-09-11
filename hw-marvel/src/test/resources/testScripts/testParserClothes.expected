@@ -1,0 +1,10 @@
+# Test the parser on a graph that contains several nodes
+# with multiple edges.
+
+loaded graph clothes
+
+the children of pants in clothes are: jeans(pantbook) overalls(pantbook) shorts(pantbook)
+
+the children of shirts in clothes are: blouses(shirtbook) overalls(shirtbook) sweaters(shirtbook) sweatshirts(shirtbook)
+
+the children of overalls in clothes are: blouses(shirtbook) jeans(pantbook) pants(pantbook) shirts(shirtbook) shorts(pantbook) sweaters(shirtbook) sweatshirts(shirtbook)

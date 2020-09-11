@@ -1,0 +1,7 @@
+# Tests that a graph can be created, a pair of nodes and
+# an edge between them can be created.
+
+CreateGraph graph1
+AddNode graph1 A
+AddNode graph1 B
+AddEdge graph1 A B 5

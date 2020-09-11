@@ -1,0 +1,31 @@
+# Tests some edge cases with the output format of the scripting language.
+# Your MarvelTestDriver implementation should pass this test without you needing
+# to change this test.
+
+created graph g
+
+added node n1 to g
+added node n2 to g
+added node n3 to g
+added edge theOnlyEdge from n1 to n2 in g
+
+path from n1 to n2:
+n1 to n2 via theOnlyEdge
+
+path from n1 to n3:
+no path found
+
+unknown character x
+
+unknown character x
+
+unknown character x
+unknown character y
+
+unknown character y
+unknown character x
+
+unknown character x
+unknown character x
+
+path from n1 to n1:

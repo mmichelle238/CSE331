@@ -1,0 +1,8 @@
+# create a graph and 3 nodes. make sure
+# that the list of the nodes is sorted alphabetically
+
+created graph A
+added node n3 to A
+added node n2 to A
+added node n1 to A
+A contains: n1 n2 n3

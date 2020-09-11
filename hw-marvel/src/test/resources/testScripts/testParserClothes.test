@@ -1,0 +1,10 @@
+# Test the parser on a graph that contains several nodes
+# with multiple edges.
+
+LoadGraph clothes newClothes.tsv
+
+ListChildren clothes pants
+
+ListChildren clothes shirts
+
+ListChildren clothes overalls

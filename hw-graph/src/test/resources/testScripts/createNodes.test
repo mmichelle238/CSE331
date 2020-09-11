@@ -1,0 +1,8 @@
+# Tests graph creation/viewing with a graph
+# that has nodes that aren't connected to each other.
+
+CreateGraph graph1
+AddNode graph1 A
+AddNode graph1 B
+AddNode graph1 C
+ListNodes graph1

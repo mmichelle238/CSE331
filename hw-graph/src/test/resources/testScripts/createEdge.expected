@@ -1,0 +1,7 @@
+# Tests that a graph can be created, a pair of nodes and
+# an edge between them can be created.
+
+created graph graph1
+added node A to graph1
+added node B to graph1
+added edge 5 from A to B in graph1

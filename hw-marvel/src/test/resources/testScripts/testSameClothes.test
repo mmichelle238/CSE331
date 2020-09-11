@@ -1,0 +1,6 @@
+# Tests that if a path has the same source
+# and destination, it wouldn't print anything.
+
+LoadGraph clothes newClothes.tsv
+
+FindPath clothes pants pants

@@ -1,0 +1,15 @@
+# create a graph and 3 nodes and create edges
+# between them. This test ensures that the list
+# of the children of a node is sorted alphabetically,
+# especially when the destination node is the same
+# but the label is different.
+
+created graph A
+added node n1 to A
+added node n2 to A
+added node n3 to A
+added edge e31 from n3 to n2 in A
+added edge e32 from n3 to n1 in A
+added edge e33 from n3 to n3 in A
+added edge e35 from n3 to n1 in A
+the children of n3 in A are: n1(e32) n1(e35) n2(e31) n3(e33)

@@ -1,0 +1,6 @@
+# Find a path with only one "hop" (edge) using a file I created
+# called newClothes.
+
+LoadGraph clothes newClothes.tsv
+
+FindPath clothes pants shorts

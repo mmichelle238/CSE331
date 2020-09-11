@@ -1,0 +1,17 @@
+# Tests graph creation/viewing with a
+# simple graph ('A') with three nodes.
+# And the simultaneous creation of another graph
+# ('B') does not result in incorrect behavior.
+
+CreateGraph graph1
+AddNode graph1 A
+AddNode graph1 B
+CreateGraph graph2
+AddNode graph2 A
+AddNode graph2 B
+AddEdge graph1 A B 5
+AddEdge graph2 A B 5
+AddEdge graph1 B A 3
+AddEdge graph2 B A 4
+AddEdge graph1 A B 7
+AddEdge graph2 A B 7
