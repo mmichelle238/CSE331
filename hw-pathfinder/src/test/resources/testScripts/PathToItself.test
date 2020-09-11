@@ -1,0 +1,8 @@
+# Find a path with Dijkstra's algorithm between
+# the same node.
+
+CreateGraph simpleGraph
+
+AddNode simpleGraph A
+
+FindPath simpleGraph A A

@@ -1,0 +1,19 @@
+# Find a path with Dijkstra's algorithm when
+# the path found by BFS is different. The weights are also
+# very similar.
+
+created graph simpleGraph
+
+added node A to simpleGraph
+added node B to simpleGraph
+added node C to simpleGraph
+added node D to simpleGraph
+
+added edge 3.456 from A to B in simpleGraph
+added edge 1.534 from A to C in simpleGraph
+added edge 1.563 from C to D in simpleGraph
+added edge 0.545 from D to B in simpleGraph
+
+path from A to B:
+A to B with weight 3.456
+total cost: 3.456

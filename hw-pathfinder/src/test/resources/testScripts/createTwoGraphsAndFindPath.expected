@@ -1,0 +1,36 @@
+# create multiple graphs and find paths between them
+# simultaneously.
+
+created graph simpleGraph
+
+added node A to simpleGraph
+added node B to simpleGraph
+added node C to simpleGraph
+added node D to simpleGraph
+
+created graph graph
+
+added node A to graph
+added node B to graph
+added node C to graph
+added node D to graph
+
+added edge 10.000 from A to B in simpleGraph
+added edge 1.000 from A to C in simpleGraph
+added edge 1.000 from C to D in simpleGraph
+added edge 1.000 from D to B in simpleGraph
+
+added edge 3.456 from A to B in graph
+added edge 1.534 from A to C in graph
+added edge 1.563 from C to D in graph
+added edge 0.545 from D to B in graph
+
+path from A to B:
+A to C with weight 1.000
+C to D with weight 1.000
+D to B with weight 1.000
+total cost: 3.000
+
+path from A to B:
+A to B with weight 3.456
+total cost: 3.456

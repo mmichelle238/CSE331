@@ -1,0 +1,7 @@
+Michelle Morris
+1. Fibonacci failed the testThrowsIllegalArgumentException test because it should only throw the exception if it's negative.
+I fixed this by changing the first if statement to n<0 from n<=0.
+2. Fibonacci failed the testBaseCase test because it should return 1 if n is 0 or 1.
+I fixed this by changing the the else if statement from n<=2 to n<=1.
+3. Fibonacci failed the testInductiveCase test because it was subtracting the two previous numbers.
+I fixed this by changing the last line of code in the else statement to add the two previous numbers.
